@@ -69,7 +69,7 @@ local lastBatSwing = 0
 local BAT_SWING_COOLDOWN = 0.12
 
 -- Discord progress text for progress bar
-local DISCORD_TEXT = "https://discord.gg/g9DUyGQamd"
+local DISCORD_TEXT = "discord.gg/WGDffNSNy"
 
 local function getDiscordProgress(percent)
     local totalChars = #DISCORD_TEXT
@@ -826,7 +826,7 @@ local function saveConfig()
     
     if saveConfigBtn then
         if success then
-            saveConfigBtn.Text = "âœ“ Config Saved!"
+            saveConfigBtn.Text = "X“ Config Saved!"
             saveConfigBtn.BackgroundColor3 = C.success
         else
             saveConfigBtn.Text = "Save Failed!"
@@ -933,7 +933,7 @@ local title = Instance.new("TextLabel")
 title.Size = UDim2.new(0, 250, 0, 50)
 title.Position = UDim2.new(0, 65, 0, 10)
 title.BackgroundTransparency = 1
-title.Text = "VYSE SLOTTED"
+title.Text = "Meloska Duels"
 title.TextColor3 = C.purple
 title.Font = Enum.Font.GothamBlack
 title.TextSize = 24
@@ -946,7 +946,7 @@ local closeBtn = Instance.new("TextButton")
 closeBtn.Size = UDim2.new(0, 30, 0, 30)
 closeBtn.Position = UDim2.new(1, -45, 0, 15)
 closeBtn.BackgroundTransparency = 1
-closeBtn.Text = "Ã—"
+closeBtn.Text = "X"
 closeBtn.TextColor3 = C.textDim
 closeBtn.Font = Enum.Font.GothamBold
 closeBtn.TextSize = 24
